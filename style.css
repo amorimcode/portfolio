@@ -23,6 +23,7 @@ p {
 .footer {
     background-color: #343a40;
     margin: 0px;
+    margin-top: 0px;
     padding-top: 10px;
     padding-bottom: 20px;
 }
@@ -35,4 +36,8 @@ html {
     scroll-snap-align: center;
 }
 body {}
+
+#contact {
+    margin-bottom: 0px;
+}
     
