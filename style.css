@@ -4,27 +4,21 @@
     max-width: 100%;
     border-radius: 50%;
 }
-.primaryColor {
-    background-color: rgb(119, 0, 255);
-}
-.secondaryColor {
-    background-color: rgb(96, 1, 204);
-}
 .icons{
     padding-left: 5px;
 }
-.jumbotron {
-    margin-bottom: 0px;
+div.jumbotron {
+    margin-bottom: initial;
 }
 p {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    color: black;
 }
 .footer {
     background-color: #343a40;
     margin: 0px;
+    margin-top: 0px;
     padding-top: 10px;
-    padding-bottom: 5px;
+    padding-bottom: 20px;
 }
 #footerText {
     color: #ccc;
@@ -34,5 +28,11 @@ html {
     scroll-behavior: smooth;
     scroll-snap-align: center;
 }
-body {}
+.contact {
+    margin-bottom: 0px;
+    background-color: whitesmoke;
+}
+.display-4 {
+        font-size: 2.5rem !important;
+    }
     
