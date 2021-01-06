@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+    scroll-snap-align: center;
+}
 .profile-photo {
     height: 100%;
     width: auto;
@@ -8,7 +12,6 @@
     padding-left: 5px;
 }
 .jumbotron {
-    /* margin-bottom: initial; */
     margin-bottom: 0px !important;
 }
 p {
@@ -24,14 +27,6 @@ p {
 #footerText {
     color: #ccc;
     align-content: center;
-}
-html {
-    scroll-behavior: smooth;
-    scroll-snap-align: center;
-}
-.contact {
-    margin-bottom: 0px;
-    background-color: whitesmoke;
 }
 .display-4 {
         font-size: 2.5rem !important;
@@ -49,4 +44,10 @@ div.projects {
     background-color:#f1f5f8 !important;
 }
 
-.profile
+section.profile {
+    padding: 10%;
+}
+
+.box {
+    padding-top: 150px !important;
+}
