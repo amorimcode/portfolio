@@ -34,7 +34,7 @@ p {
 .projecttitle {
     text-align: center;
 }
-div.projects {
+section.projects {
     background-color:#f1f5f8;
     padding-top: 0px;
     margin-bottom: initial;
@@ -50,4 +50,8 @@ section.profile {
 
 .box {
     padding-top: 150px !important;
+}
+
+section img {
+    object-fit: cover;
 }
