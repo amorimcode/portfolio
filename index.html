@@ -23,32 +23,32 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Bruno Amorim</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-            </ul>
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#projects">Projetos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">Sobre mim</a>
-                </li>
-                <li class="nav-item">
-                    <!-- <a class="nav-link" href="#depositions">Depoimentos</a> -->
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contato</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="/index.html">Bruno Amorim</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/projects.html">Projetos</a>
+                    </li>
+                    <li class="nav-item">
+                        <!-- <a class="nav-link" href="/about.html">Sobre mim</a> -->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact.html">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
     <section class="jumbotron text-center profile">
         <div class="container">
@@ -68,227 +68,6 @@
             <a target="_blank"
                 href="https://api.whatsapp.com/send?phone=+5519991123574&text=&source=&data=&app_absent="><i
                     class="fab fa-whatsapp icons"></i></a>
-        </div>
-    </section>
-    <!-- Projetos -->
-    <section class="album py-5 projects" id='projects'>
-        <div class="container">
-            <h2 class="jumbotron-heading text-center display-4">Projetos</h2>
-            <hr>
-            <p class="lead text-center">Aqui estão alguns projetos pessoais que desenvolvi com o intuito de adquirir
-                novos conhecimentos na programação. Os mesmos podem ser acessados pelos links abaixo, bem como os
-                repositórios no GitHub.</p>
-            <br>
-            <div class="row">
-
-                <div class="col-md-6">
-                    <div class="card mb-4 box-shadow">
-                        <img class="card-img-top"
-                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
-                            alt="Thumbnail [100%x225]"
-                            style="height: 225px; width: 100%; display: block; object-fit: cover;"
-                            src="https://github.com/amorimcode/CarAPI/raw/main/assets/collection.png"
-                            data-holder-rendered="true">
-                        <div class="card-body">
-                            <p class="projecttitle"><strong>Car API - Node.js</strong></p>
-                            <p class="card-text">API criada para gerenciar (incluir, excluir, editar e consultar) um
-                                cadastro de carros com sistema criptografado de cadastro e login de usuários.
-                            </p>
-                            <ul>
-                                <li>JavaScript</li>
-                                <li>Docker</li>
-                                <li>MongoDB</li>
-                            </ul>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <a href="https://github.com/amorimcode/portfolio" target="_blank"><button
-                                            type="button" class="btn btn-sm btn-outline-secondary">Ver no
-                                            GitHub</button></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6">
-                    <div class="card mb-4 box-shadow">
-                        <img id="fitimage" class="card-img-top"
-                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
-                            alt="Thumbnail [100%x225]"
-                            style="height: 225px; width: 100%; display: block; object-fit: cover;"
-                            src="screenshots/instapost.png" data-holder-rendered="true">
-                        <div class="card-body">
-                            <p class="projecttitle"><strong>Insta Post Reminder</strong></p>
-                            <p class="card-text">Aplicação desktop desenvolvida com electron que notifica de hora em
-                                hora para se realizar uma postagem.
-                                <li>JavaScript</li>
-                                <li>HTML/CSS</li>
-                                <li>Electron</li>
-                                </ul>
-                                <br>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <a href="https://github.com/amorimcode/insta-post-reminder" target="_blank"><button
-                                            type="button" class="btn btn-sm btn-outline-secondary">Ver no
-                                            GitHub</button></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6">
-                    <div class="card mb-4 box-shadow">
-                        <img class="card-img-top"
-                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
-                            alt="Thumbnail [100%x225]"
-                            style="height: 225px; width: 100%; display: block; object-fit: cover;"
-                            src="https://github.com/amorimcode/portfolio/blob/master/screenshots/new%20screenshot.png?raw=true"
-                            data-holder-rendered="true">
-                        <div class="card-body">
-                            <p class="projecttitle"><strong>Portfólio</strong></p>
-                            <p class="card-text">Todo o código e arquivos utilizados para a construção desse portfólio
-                                estão disponíveis para consulta no respositório GitHub.</p>
-                            <ul>
-                                <li>JavaScript</li>
-                                <li>HTML/CSS</li>
-                                <li>Bootstrap 4</li>
-                            </ul>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <a href="https://github.com/amorimcode/portfolio" target="_blank"><button
-                                            type="button" class="btn btn-sm btn-outline-secondary">Ver no
-                                            GitHub</button></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6">
-                    <div class="card mb-4 box-shadow">
-                        <img class="card-img-top"
-                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
-                            alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
-                            src="https://github.com/amorimcode/lyricssearch/blob/master/media/Screenshot%202020-12-30%20172334.png?raw=true"
-                            data-holder-rendered="true">
-                        <div class="card-body">
-                            <p class="projecttitle"><strong>Lyrics search</strong></p>
-                            <p class="card-text">Página da web com sistema de busca de letras de música. Feita
-                                utilizando a API https://api.lyrics.ovh/.</p>
-                            <ul>
-                                <li>JavaScript</li>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                            </ul>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <a href="https://amorimcode.github.io/lyricssearch/" target="_blank"><button
-                                            type="button" class="btn btn-sm btn-outline-primary">Ver
-                                            projeto</button></a>
-                                    <a href="https://github.com/amorimcode/lyricssearch" target="_blank"><button
-                                            type="button" class="btn btn-sm btn-outline-secondary">Ver no
-                                            GitHub</button></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="col-md-6">
-                    <div class="card mb-4 box-shadow">
-                        <img class="card-img-top"
-                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
-                            alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
-                            src="https://github.com/amorimcode/verificadordeidade/blob/master/media/ezgif-6-6c31e6df0339.gif?raw=true"
-                            data-holder-rendered="true">
-                        <div class="card-body">
-                            <p class="projecttitle"><strong>Verificador de idade</strong></p>
-                            <p class="card-text">Página da web que monta um perfil de acordo com dados preenchidos no
-                                formulário.</p>
-                            <ul>
-                                <li>JavaScript</li>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                            </ul>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <a href="https://amorimcode.github.io/verificadordeidade/" target="_blank"><button
-                                            type="button" class="btn btn-sm btn-outline-primary">Ver
-                                            projeto</button></a>
-                                    <a href="https://github.com/amorimcode/verificadordeidade" target="_blank"><button
-                                            type="button" class="btn btn-sm btn-outline-secondary">Ver no
-                                            GitHub</button></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6">
-                    <div class="card mb-4 box-shadow">
-                        <img class="card-img-top"
-                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
-                            alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
-                            src="https://github.com/amorimcode/desafiopokemon/raw/main/media/screenshots/Screenshot%202021-01-26%20155324.png?raw=true"
-                            data-holder-rendered="true">
-                        <div class="card-body">
-                            <p class="projecttitle"><strong>Desafio Pokémon</strong></p>
-                            <p class="card-text">Este é um teste feito para um processo seletivo que participei. Gostei
-                                muito da abordagem e de como os conhecimentos foram cobrados de forma divertida. A
-                                página retorna um pokémon de acordo com a temperatura da cidade pesquisada, seguindo
-                                alguns critérios estabelecidos pelo teste.</p>
-                            <ul>
-                                <li>JavaScript</li>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                            </ul>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <a href="https://amorimcode.github.io/desafiopokemon/" target="_blank"><button
-                                            type="button" class="btn btn-sm btn-outline-primary">Ver
-                                            projeto</button></a>
-                                    <a href="https://github.com/amorimcode/desafiopokemon" target="_blank"><button
-                                            type="button" class="btn btn-sm btn-outline-secondary">Ver no
-                                            GitHub</button></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Sobre mim -->
-    <section class="jumbotron text-center color box" id="about" style="margin-bottom: 0px;">
-        <div class="container">
-            <h2 class="jumbotron-heading display-4">Sobre mim</h2>
-            <hr>
-            <p class="lead">Sou um jovem criativo, motivado, fascinado por tecnologia desde cedo e que encontrou na
-                programação uma forma de expor suas ideias e ambições. Iniciei meus estudos na programação em 2020,
-                desde então venho desenvolvendo projetos pessoais para aprender novas tecnologias. Todos esses projetos
-                estão em meu portifólio, bem como seus respectivos códigos fonte no GitHub.
-                Além disso, atualmente estou cursando Engenharia de Software na PUC-Campinas (período matutino, das
-                08:00 às 12:30 durante a pandemia), lá tive experiências com o desenvolvimento de aplicações utilizando
-                JavaScript, HTML/CSS, Python, modelagem (MER) e desenvolvimento de banco de dados SQL, estrutura de
-                dados, algoritmos, bem como o estudo de metodologias ágeis como SCRUM.
-            </p>
-        </div>
-    </section>
-    
-    <!-- Contato -->
-    <section class="contact color" id="contact" style="margin-bottom: 0px;">
-        <div>
-            <div class="jumbotron container-fluid color">
-                <h3 style="padding-top: 60px;" class="text-center jumbotron-heading display-4">Contato</h3>
-                <hr style="width: 10%; padding: 0px;">
-                <h4 class="text-center lead"><a href="mailto:bruno.amorim032@gmail.com">bruno.amorim032@gmail.com</a>
-                </h4>
-                <h4 style="padding-bottom: 60px;" class="text-center lead"><a
-                        href="tel:+551991123574">(19)99112-3574</a></h4>
-                <br>
-                </a>
-            </div>
         </div>
     </section>
     <!-- Footer -->
