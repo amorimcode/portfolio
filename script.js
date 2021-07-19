@@ -1,7 +1,3 @@
-function footerUpdate() {
-    document.write(new Date().getFullYear())
-}
-
 function sendEmail() {
     
     const name = document.getElementById('name').value
@@ -10,7 +6,7 @@ function sendEmail() {
     const message = document.getElementById('message').value
     
     const button = document.getElementById('submitButton')
-    
+
     Email.send({
         Host : "smtp.gmail.com",
         Username : "bruno.emailjs@gmail.com",
