@@ -48,10 +48,14 @@
     <section class="contact-clean">
         <form method="dialog" onsubmit="sendEmail(name, email, message)">
             <h2 class="text-center">Contato</h2>
-            <div class="mb-3"><input class="form-control" type="text" required id='name' name="name" placeholder="Nome"></div>
-            <div class="mb-3"><input class="form-control" id='email' type="email" name="email"
-                    placeholder="E-mail"></div>
-            <div class="mb-3"><textarea class="form-control" id='message' name="message" placeholder="Mensagem" rows="14"></textarea>
+            <div class="mb-3"><input class="form-control" type="text" required id='name' name="name" placeholder="Nome">
+            </div>
+            <div class="mb-3"><input class="form-control" id='email' type="email" name="email" placeholder="E-mail">
+            </div>
+            <div class="mb-3"><input class="form-control" type="text" required id='subject' name="subject" placeholder="Assunto">
+            </div>
+            <div class="mb-3"><textarea class="form-control" id='message' name="message" placeholder="Mensagem"
+                    rows="14"></textarea>
             </div>
             <div class="mb-3"><button id='submitButton' class="btn btn-primary" type="submit">Enviar</button></div>
         </form>
