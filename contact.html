@@ -12,7 +12,7 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
     <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="script" href="scripts.js">
+    <script src="script.js"></script>
 </head>
 
 <header>
@@ -47,13 +47,12 @@
 <body>
 
     <section class="contact-clean">
-        <form method="post">
+        <form method="dialog" onsubmit="sendEmail(name, email, message)">
             <h2 class="text-center">Contato</h2>
-            <div class="mb-3"><input class="form-control" type="text" name="name" placeholder="Nome"></div>
-            <div class="mb-3"><input class="form-control is-invalid" type="email" name="email"
-                    placeholder="E-mail"><small class="form-text text-danger">Por favor, insira um endereço de e-mail
-                    correto.</small></div>
-            <div class="mb-3"><textarea class="form-control" name="message" placeholder="Mensagem" rows="14"></textarea>
+            <div class="mb-3"><input class="form-control" type="text" required id='name' name="name" placeholder="Nome"></div>
+            <div class="mb-3"><input class="form-control" id='email' type="email" name="email"
+                    placeholder="E-mail"></div>
+            <div class="mb-3"><textarea class="form-control" id='message' name="message" placeholder="Mensagem" rows="14"></textarea>
             </div>
             <div class="mb-3"><button class="btn btn-primary" type="submit">Enviar</button></div>
         </form>
