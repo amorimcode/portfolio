@@ -1,6 +1,13 @@
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
 html {
     scroll-behavior: smooth;
     scroll-snap-align: center;
+
 }
 .profile-photo {
     height: 100%;
@@ -13,12 +20,14 @@ html {
 }
 .jumbotron {
     margin-bottom: 0px !important;
+    height: 100% !important;
 }
 p {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 .footer {
     background-color: #343a40;
+    position: bottom;
     margin: 0px;
     margin-top: 0px;
     padding-top: 10px;
